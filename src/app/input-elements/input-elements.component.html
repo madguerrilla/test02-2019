@@ -1,0 +1,6 @@
+<div class="input-group input-group-lg o-input-group" *ngFor="let inputFormData of inputFormData">
+	<div class="input-group-prepend">
+		<label class="input-group-text c-input__label" for="{{inputFormData.id}}">{{inputFormData.name}}</label>
+	</div>
+	<input id="{{inputFormData.id}}" name="{{inputFormData.name}}" type="{{inputFormData.type}}" class="form-control c-input__field" value="" required min="1" max="1000">
+</div>

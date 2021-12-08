@@ -1,0 +1,19 @@
+<div>
+  <div class="row">
+    <div class="col-8">
+      <h1 class="display-4">{{ title }}</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 d-flex justify-content-center">
+      <form class="col-12">
+        <app-input-elements></app-input-elements>
+      </form>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-8 d-flex justify-content-center">
+      <button type="button" class="btn btn-primary" (click)="this.update()">Update</button>
+    </div>
+  </div>
+</div>

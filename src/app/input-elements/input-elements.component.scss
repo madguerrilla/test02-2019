@@ -1,0 +1,17 @@
+.o- {
+	&input {
+		&-group {
+			margin-bottom: 20px;
+			.c- {
+				&input {
+					&__label {
+						min-width: 130px;
+						&:hover {
+							cursor: pointer;
+						}
+					}
+				}
+			}
+		}
+	}
+}
